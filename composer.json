@@ -27,6 +27,9 @@
     "autoload": {
         "psr-4": {
             "JazzMan\\GeoIP\\":"src"
-        }
+        },
+        "files": [
+            "helper.php"
+        ]
     }
 }
