@@ -1,0 +1,32 @@
+{
+    "name": "jazzman/wp-geoip",
+    "license": "MIT",
+    "config": {
+        "sort-packages": true,
+        "preferred-install": "dist",
+        "optimize-autoloader": true,
+        "classmap-authoritative": true
+    },
+    "require": {
+        "php": "^7.1",
+        "ext-maxminddb": "*",
+        "jazzman/parameter-bag": "^1.2",
+        "jazzman/singleton-trait": "^1.1"
+    },
+    "require-dev": {
+        "dg/composer-cleaner": "^2.2",
+        "maxmind-db/reader": "^1.8",
+        "roave/security-advisories": "dev-master"
+    },
+    "authors": [
+        {
+            "name": "Vasyl Sokolyk",
+            "email": "vsokolyk@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "JazzMan\\GeoIP\\":"src"
+        }
+    }
+}
