@@ -1,1 +1,1 @@
-# geoip
+# wp-geoip
